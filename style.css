@@ -1,0 +1,278 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+
+}
+#firstnav{
+    margin-top: 15px;
+    font-size: smaller;
+    padding-bottom: 20px;
+    position: sticky;
+    z-index: 10;
+}
+.location{
+    background: #000;
+    padding: 10px 15px;
+    margin-left: 20px;
+    font-size: smaller;
+    font-weight: 600;
+    text-decoration: none;
+    
+    
+}
+.location a{
+    color: white;
+}
+.location a:hover{
+    text-decoration: none;
+}
+.navbar img{
+    /* width: 110px; */
+    /* margin-left: 95px; */
+}
+.navbar{
+    height: 100px;
+
+}
+
+
+#menu{
+    color: black;
+    padding: 10%;
+    font-size: 12px;
+    font-weight: bold;
+    
+}
+#deals{
+    color: black;
+    padding: 10%;
+    font-size: 12px;
+    font-weight: bold;
+    
+}
+
+#manlogo{
+    width: 20;
+    /* padding: 10%; */
+}
+#signin{
+    color: black;
+    padding: 4% 8%;
+    font-size: 12px;
+    font-weight: bold;
+    border-right: 1px solid;
+    border-color: lightgrey; 
+    }
+
+#signin:hover{
+    text-decoration: none;
+}
+#zero{
+    margin-left: 0;
+    font-size: small;
+    color: black;
+}
+#cartlogo{
+    width: 40px;
+}
+
+
+.bi.bi-list{
+    display: none;
+
+}
+#order{
+    background-color: #202124;
+    color: white;
+    font-size: 14px;
+    font-weight: 700;
+    height: 70px;
+    padding-top: 25px;
+    
+}
+.startOrder{
+    background-color: rgb(231, 27, 27);
+    
+    font-size: small;
+    font-weight: 300;
+    padding: 15px 30px;
+    
+}
+.startOrder a{
+    color: white;
+}
+.startOrder a:hover{
+    text-decoration: none;
+}
+#orderAlign{
+    text-align: right;
+}
+#startOrderAlign{
+    text-align: left;
+}
+#kfcImg{
+    padding: 0%;
+    margin: 0%;
+   
+}
+#welcome{
+    background-color: #f8f7f5;
+    height: 18vh;
+}
+
+#stripe{
+    width: 3%;
+    height: 75%;
+    margin-top: -0.5%;
+    margin-left: 12%;
+}
+#welcomeKfc h3{
+    font-weight: 700;
+    font-size: 35px;
+    margin-left: 12%;
+    margin-top: 2%;
+    letter-spacing: -1px;
+}
+#browse{
+    margin-top: 60px;
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: -2px;
+    margin-left: 10%;
+}
+#line{
+    width: 60%;
+    margin-top: -2%;
+    margin-left: 30%;
+    background-color: black;
+}
+.card-body{
+    height: 0;
+    padding: 0;
+}
+.card-footer h6{
+    font-weight: 700;
+    letter-spacing: -2;
+    text-align: center;
+    color: black;
+}
+.card-footer h6:hover{
+    text-decoration: none;
+    color: black;
+}
+.card-deck{
+    margin-top: 30px;
+}
+#smallText{
+   
+    color: rgb(0, 0, 0);
+}
+#smallText:hover{
+    text-decoration: none;
+}
+#stripe2{
+    width: 5%;
+    margin-left: 14vw;
+}
+#deals2{
+    color: white;
+    letter-spacing: -1px;
+    font-size: 12px;
+    margin-top: -6%;
+    margin-left: 5%;
+    padding-top: 10%;
+
+}
+#footerDeal>a{
+    color: white;
+
+}
+#footerDeal a:hover{
+    text-decoration: none;
+    color: white;
+}
+#footerDeal {
+
+}
+.w-100 {
+    width: 79%!important;
+    padding-left: 19%;
+    margin-top: -1%;
+    z-index: 3;
+}
+#footlogo{
+    margin-left: 20%;
+    margin-top: 78%;
+}
+#kfcfind{
+    
+    
+    margin-top: 25%;
+   
+}
+#kfcfind a{
+    color: white;
+    font-size: 12px;
+    text-decoration: underline;
+}
+#download{
+    margin-top: 25%;
+    margin-left: auto;
+}
+
+
+
+
+@media(max-width:1023px){
+    .responsive-nav{
+        display: none;
+    }
+    
+    
+    .kfclogo{
+        margin-left: 32vw;
+    }
+        
+    .bi.bi-list{
+        display: inline;
+        color: black;
+    }
+    #orderAlign{
+       
+        text-align: center;
+    }
+    #startOrderAlign{
+        text-align: center;
+        padding-top: 20px;
+    }
+    #order{
+        height: 120px;
+    }
+    #browse{
+        font-size: 20px;
+    }
+    #welcomeKfc h3{
+        margin-left: 32vw;
+        font-size: 20px;
+    }
+    #stripe{
+        margin-left: 50vw;
+    }
+    .col-4.footer-imgs{
+        display: block;
+    }
+}
+.card-block{
+    height: 650px;
+}
+
+@media (max-width:600px){
+    .card-block{
+        height: 3650px;
+    }
+    .footer-style{
+        position: absolute;
+        align-items: baseline;
+    }
+}
